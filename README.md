@@ -17,7 +17,7 @@ To start the application run the following command:
 
 
 # To call
-This application takes in a JSON POST request specifying the four corner coordinates ("corners") and number of rows and columns ("dims").
+This application takes in a JSON POST request specifying the four corner coordinates ("corners") and number of rows and columns ("dims"). For example:
 
 ```
 $ curl --header "Content-Type: application/json" \
