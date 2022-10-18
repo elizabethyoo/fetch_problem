@@ -6,17 +6,21 @@ For example, if an image is defined by a 3x3 grid of pixel values, and the (x, y
 
 # to build 
 To build the application run the following command:
+
 ```$ docker-compose build fetch_problem```
 
 
 # to run 
 To run the application run the following command: 
+
 ```$ docker-compose up fetch_problem```
 
 
 # to call
 This application takes in a JSON POST request specifying the four corner coordinates ("corners") and number or rows and columns ("dims").
-```$ curl --header "Content-Type: application/json" \
+
+```
+$ curl --header "Content-Type: application/json" \
 	--request POST \
 	--data '{"corners": [[1, 1], [3, 1], [1, 3], [3, 3]], "dims": [3, 3]}' \
 	localhost:5000/get_evenly_spaced_coords
