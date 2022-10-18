@@ -1,0 +1,5 @@
+services:
+  fetch_problem:
+    build: .
+    ports: 
+      - "5000:5000"
