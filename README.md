@@ -11,13 +11,13 @@ To build the application run the following command:
 
 
 # to run 
-To run the application run the following command: 
+To start the application run the following command: 
 
 ```$ docker-compose up fetch_problem```
 
 
 # to call
-This application takes in a JSON POST request specifying the four corner coordinates ("corners") and number or rows and columns ("dims").
+This application takes in a JSON POST request specifying the four corner coordinates ("corners") and number of rows and columns ("dims").
 
 ```
 $ curl --header "Content-Type: application/json" \
